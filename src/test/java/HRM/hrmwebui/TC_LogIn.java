@@ -13,6 +13,7 @@ public class TC_LogIn {
 	
 	@Test
 	public void login_Test() {
+		/*Test*/
 		WebDriver driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
